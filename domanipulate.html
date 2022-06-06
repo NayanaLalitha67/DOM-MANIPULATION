@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>traversing</title>
+<script type="text/javascript" src="jquery/jquerylal.js"></script>
+
+	<script type="text/javascript">
+$(document).ready(function(){
+
+$("#a").click(function(){
+//var k=$("p").text("computer science");
+//var k=$("p").html("computer science");
+//$("#l").val("cse");
+$("a").attr({"href":"https://www.google.com"});
+$("ul").before("<h2>branch</h2>");
+$("ul").after("<h3>branch completed</h3 >");
+$("ul").append("<li>civil</li>");
+$("ul").prepend("<li>mexh</li>");
+$("#q").appendTo("#p");
+$("ul").empty();
+
+
+
+
+
+})
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+</head>
+<body>
+	<button id="a">click</button>
+	<h1>DOM MANIPULation</h1>
+	<P id="p"> LALITHA</P>
+
+	<ul>
+
+		<li>cse</li>
+		<li>ece</li>
+		<li>mech</li>
+	</ul>
+	<input type="text" id="l">
+	<P id="q"> kumari</P>
+	<a>link</a>
+</body>
+</html>
